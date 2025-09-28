@@ -26,7 +26,7 @@ async def Cb_Handle(bot: Client, query: CallbackQuery):
         btn = [
             [InlineKeyboardButton(text='❗ Hᴇʟᴘ', callback_data='help'), InlineKeyboardButton(
                 text='🌨️ Aʙᴏᴜᴛ', callback_data='about')],
-            [InlineKeyboardButton(text='📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/+UAyCaj8w_vgxMjc9'), InlineKeyboardButton
+            [InlineKeyboardButton(text='📢 Uᴘᴅᴀᴛᴇs', url=''), InlineKeyboardButton
                 (text='💻 Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Thizz_zoro')]
         ]
         await query.message.edit(text=Txt.PRIVATE_START_MSG.format(query.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
