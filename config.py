@@ -5,7 +5,7 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")  # ⚠️ Required
+    API_ID    = os.environ.get("API_ID", "24160099")  # ⚠️ Required
     API_HASH  = os.environ.get("API_HASH", "") # ⚠️ Required
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") # ⚠️ Required
     FORCE_SUB = os.environ.get('FORCE_SUB', '') # ⚠️ Required
@@ -13,8 +13,8 @@ class Config(object):
     FORCE_SUB) else None
    
     # database config
-    DB_URL  = os.environ.get("DB_URL", "")  # ⚠️ Required
-    DB_NAME  = os.environ.get("DB_NAME","SnowEncoderBot") 
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://haribotx:haribotx@cluster0.i3skil4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Required
+    DB_NAME  = os.environ.get("DB_NAME","Cluster0") 
 
     # Other Configs 
     ADMIN = int(os.environ.get("ADMIN", "0")) # ⚠️ Required
