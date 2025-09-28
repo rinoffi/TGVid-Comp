@@ -62,12 +62,12 @@ Available commands:-
 ➜ To Set Thumbnail just send photo
 
 
-<b>⦿ Developer:</b> <a href=https://t.me/Thizz_zoro>ZORO 🤍🎗️</a>
+<b>⦿ Developer:</b> <a href=https://t.me/Thizz_zoro>ZORO🤍🎗️</a>
 """
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : @{}
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/Thizz_zoro>ZORO 🤍🎗️/a>
+├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/Thizz_zoro>ZORO🤍🎗️</a>
 ├👑 Instagram : <a href=>C-Insta</a> 
 ├☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Thizz_zoro>Zoro-Lᴀɴᴅ</a>
 ├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
